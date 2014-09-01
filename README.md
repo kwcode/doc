@@ -1,4 +1,0 @@
-doc
-===
-
-my document
