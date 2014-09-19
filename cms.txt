@@ -1,0 +1,8 @@
+首页设置
+选择布局
+添加communal目录下面的控件
+排序
+对控件的编辑
+
+1、首页布局 
+t_comm_ ID Sort PageName Display CreateTS Comments Remark 排序 页面名称 是否显示 CreateTS 对应中文注释 备注
