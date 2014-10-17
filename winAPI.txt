@@ -1,0 +1,4 @@
+//该函数将创建指定窗口的线程设置到前台，并且激活该窗
+[DllImport("user32")]
+
+static extern int SetForegroundWindow(IntPtr hwnd);
