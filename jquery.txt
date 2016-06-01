@@ -64,9 +64,12 @@ jQuery.fn.extend(object);给jQuery对象添加方法。
         });
 
 
+//
+var def= $.Deferred(); // 新建一个Deferred对象 //三种执行状态- -未完成，已完成和已失败。
 
-
-
+def.resolve(可以传参数的哦);//将ddef对象的执行状态从"未完成"改为"已完成"，从而触发done()方法。
+def.reject();//将def对象的执行状态从"未完成"改为"已失败"，从而触发fail()方法。
+def.promise(); //在原来的deferred对象上返回另一个deferred对象，后者只开放与改变执行状态无关的方法（比如done()方法和fail()方法），屏蔽与改变执行状态有关的方法（比如resolve()方法和reject()方法），从而使得执行状态不能被改变。
 
 
 

@@ -7,6 +7,8 @@ a:hover {color: #FF00FF}    /* 当有鼠标悬停在链接上 */
 a:active {color: #0000FF}   /* 被选择的链接 */
 
 
+//外阴影
+box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0,0,0,0.15);
 
 
 
